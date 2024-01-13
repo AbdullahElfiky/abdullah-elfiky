@@ -1,0 +1,56 @@
+.gradient-background {
+  background: linear-gradient(300deg, #61f9f9, #cc468d, #c14da2);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.container {
+  padding-bottom: 0 !important;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+p {
+  color: white;
+}
+
+.video {
+  margin-top: 20px;
+}
+
+.samples {
+  border: rgb(110, 110, 110) solid 1px;
+  border-radius: 5px;
+}
+
+.samples-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
